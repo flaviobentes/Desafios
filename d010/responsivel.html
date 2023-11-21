@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responssividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color:#ffff;
+            padding:20px;
+            border-radius: 10px;
+            min-width: 320px;/*Largura minima*/
+            max-width: 800px;/*largura maxima*/
+            margin: auto;/*o conteudo ficara no centro da tela idependente do tamanhoda mesma*/
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responssividade</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque officiis id sunt voluptatibus vel fuga. Dolore quam unde, quae nam hic, nesciunt dicta fugit quibusdam rem enim, error esse sequi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi molestias, aliquid odit ipsa tempore quis numquam molestiae laborum eum est labore quisquam saepe illo suscipit! Ut amet iure laboriosam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, officiis? Explicabo voluptatum beatae, esse vitae recusandae in quod omnis autem laborum? Voluptatibus obcaecati blanditiis accusamus quisquam esse! Veniam, error reiciendis!
+        </p>
+        <picture><!--Forma correta de trabalha com varias imagens // Recurso de respossassividade-->
+            <source media="(max-width:500px)" srcset="imagens/irina-blok-pq.jpg"><!--Comando usado para fazer alteraca de imagen quando ultrapassar o tamnho definido como "maximo" ou "minimo" desse forma mudara para imagem de baixo-->
+            <img src="imagens/irina-blok.jpg" alt="fota da lepra">
+        </picture>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit inventore asperiores incidunt quia rem sint. Pariatur aliquid ut laboriosam at repellat, rem earum impedit nam ducimus! Corrupti, doloribus. Voluptatem, architecto?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iste quae nostrum illum consectetur ullam officia consequuntur eligendi sit eveniet, temporibus recusandae soluta? Quis aperiam quam facere impedit aliquam lo
+        </p>
+    
+</body>
+</html>
